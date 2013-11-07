@@ -1,0 +1,9 @@
+
+public class ConverteNumeros {
+
+	public static Object devolveNumeroPorExtenso(int i) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

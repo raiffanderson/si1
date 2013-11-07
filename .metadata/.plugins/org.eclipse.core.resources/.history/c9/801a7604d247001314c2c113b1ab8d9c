@@ -1,0 +1,17 @@
+import org.junit.Before;
+import org.junit.Test;
+
+
+
+public class TestConverteNumeros {
+	
+	@Before
+	public void setUp() {
+	
+	}
+
+	@Test
+	public void TestaDevolveNumeroPorExtenso(){
+		
+	}
+}

@@ -1,0 +1,11 @@
+
+public class ConverteNumeros {
+
+	String[] numeros = {"zero","um", "dois", "tres","quatro","cinco","seis","sete","oito","nove","dez"};
+
+	public static Object devolveNumeroPorExtenso(int i) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

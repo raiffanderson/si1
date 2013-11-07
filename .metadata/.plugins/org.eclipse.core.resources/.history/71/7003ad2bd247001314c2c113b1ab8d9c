@@ -1,0 +1,21 @@
+import org.junit.Before;
+import org.junit.Test;
+
+
+
+public class TestConverteNumeros {
+	
+	int num;
+	
+	@Before
+	public void setUp() {
+		
+	}
+
+	@Test
+	public void TestaDevolveNumeroPorExtenso(){
+		/* 1º caso */
+		 num = 10;
+		 assertEquals(devolveNumeroPorExtenso(10), "dez")
+	}
+}

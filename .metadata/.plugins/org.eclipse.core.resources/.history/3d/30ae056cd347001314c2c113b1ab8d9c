@@ -1,0 +1,25 @@
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+
+
+public class TestConverteNumeros {
+	
+	int num;
+	String[]strings= {"um", "dois", "tres","quatro","cinco","seis","sete","oito","nove","dez"};
+	
+	@Before
+	public void setUp() {}
+
+	@Test
+	public void TestaDevolveNumeroPorExtenso(){
+		/* 1º caso */
+		 num = 10;
+		 assertEquals(ConverteNumeros.devolveNumeroPorExtenso(10), "dez");
+		 
+		 /**/ 
+	}
+
+}
