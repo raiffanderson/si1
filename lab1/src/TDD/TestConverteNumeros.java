@@ -11,8 +11,8 @@ public class TestConverteNumeros {
 	
 	
 	String[]listaUmADez= {"space","um", "dois", "tres","quatro","cinco","seis","sete","oito","nove","dez","onze","doze","treze","quatorze","quinze","dezesseis","dezessete","dezoito","dezenove"};
-	String[]lista21A99Pulando9= {"vinte e um","trinta", "trinta e nove", "quarenta e oito","cinquenta e sete","sessenta e seis","setenta e cinco","oitenta e quatro","noventa e tres"};
-	
+	String[]lista21A99Pulando9PorExtenso= {"vinte e um","trinta", "trinta e nove", "quarenta e oito","cinquenta e sete","sessenta e seis","setenta e cinco","oitenta e quatro","noventa e tres"};
+	String[]lista21A99Pulando9 = {"21" , "30", "39", "48", "57", "66","75","84","93"};
 	
 	@Before
 	public void setUp() {}
@@ -27,8 +27,8 @@ public class TestConverteNumeros {
 			 /* varre os números de 0 a 10 para conferir se todos estão cobertos*/
 		} 
 		
-		for (int num = 21; num < 99; num = num ){
-			 Assert.assertEquals(ConverteNumeros.devolveNumeroPorExtenso(Integer.toString(num)), listaUmADez[num]);
+		for (int num = 0; num < lista21A99Pulando9.length; num++  ){
+			 Assert.assertEquals( lista21A99Pulando9PorExtenso[num],ConverteNumeros.devolveNumeroPorExtenso(lista21A99Pulando9[num]));
 			 /* varre os números de 0 a 10 para conferir se todos estão cobertos*/
 		} 
 		
