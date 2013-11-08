@@ -83,16 +83,18 @@ public static String devolveNumeroPorExtenso(String num) {
 		coluna = Integer.parseInt(numeroDividido[1]);
 		if (Integer.parseInt(num.substring(0,1)) > 1){
 			System.out.println(num.substring(0,2));
-			resposta = resposta + devolveNumeroPorExtenso(num.substring(0,1))+" ";
+			resposta = resposta + devolveNumeroPorExtenso(num.substring(0,1));
 		}
 		if ("000000000".contains(num.substring(2,4))){
-			resposta = resposta +"mil e " + devolveNumeroPorExtenso(num.substring(1, 4));
+			resposta = "mil e " + devolveNumeroPorExtenso(num.substring(1, 4));
 		}else{
-		resposta = resposta + "mil " + devolveNumeroPorExtenso(num.substring(1, 4));
+		resposta = "mil " + devolveNumeroPorExtenso(num.substring(1, 4));
 		}
 		
 	}
-		
+	
+	
+	
 	if (resposta.endsWith("e zero")){
 		resposta = resposta.substring(0, resposta.length() - 7);
 	}

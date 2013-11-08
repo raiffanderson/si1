@@ -36,13 +36,13 @@
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestConverteNumeros.java" partName="TestConverteNumeros.java" path="C:/Users/Raiff Anderson/Source/lab1/src/TDD/TestConverteNumeros.java" title="TestConverteNumeros.java" tooltip="lab1/src/TDD/TestConverteNumeros.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestConverteNumeros.java" partName="TestConverteNumeros.java" path="C:/Users/Raiff Anderson/Source/lab1/src/TDD/TestConverteNumeros.java" title="TestConverteNumeros.java" tooltip="lab1/src/TDD/TestConverteNumeros.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab1/src/TDD/TestConverteNumeros.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1985" selectionTopPixel="276"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3094" selectionTopPixel="616"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConverteNumeros.java" partName="ConverteNumeros.java" path="C:/Users/Raiff Anderson/Source/lab1/src/TDD/ConverteNumeros.java" title="ConverteNumeros.java" tooltip="lab1/src/TDD/ConverteNumeros.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConverteNumeros.java" partName="ConverteNumeros.java" path="C:/Users/Raiff Anderson/Source/lab1/src/TDD/ConverteNumeros.java" title="ConverteNumeros.java" tooltip="lab1/src/TDD/ConverteNumeros.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab1/src/TDD/ConverteNumeros.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2816" selectionTopPixel="888"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3312" selectionTopPixel="1194"/>
 </editor>
 </editors>
 <views>
@@ -273,44 +273,23 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab1/src/TDD/ConverteNumeros.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab1/src/TDD/TestConverteNumeros.java"/>
 </editors>
-<item historyLabel="TestConverteNumeros.java" index="1">
-<position/>
-</item>
 <item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="2170" y="0"/>
-</item>
-<item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="2506" y="0"/>
-</item>
-<item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="2607" y="0"/>
-</item>
-<item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="2506" y="0"/>
-</item>
-<item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="2607" y="0"/>
-</item>
-<item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="2538" y="0"/>
-</item>
-<item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="2546" y="0"/>
-</item>
-<item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="2554" y="0"/>
-</item>
-<item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="2603" y="0"/>
+<position info="not_deleted" x="1460" y="0"/>
 </item>
 <item historyLabel="TestConverteNumeros.java" index="1">
-<position/>
+<position info="not_deleted" x="2300" y="0"/>
 </item>
 <item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="2603" y="0"/>
+<position info="not_deleted" x="1460" y="0"/>
 </item>
 <item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="2601" y="0"/>
+<position info="not_deleted" x="3509" y="0"/>
+</item>
+<item historyLabel="ConverteNumeros.java" index="0">
+<position info="not_deleted" x="3575" y="0"/>
+</item>
+<item historyLabel="ConverteNumeros.java" index="0">
+<position info="not_deleted" x="3571" y="0"/>
 </item>
 <item historyLabel="ConverteNumeros.java" index="0">
 <position/>
@@ -319,109 +298,130 @@
 <position/>
 </item>
 <item historyLabel="ConverteNumeros.java" index="0">
-<position/>
+<position info="not_deleted" x="3377" y="0"/>
+</item>
+<item historyLabel="TestConverteNumeros.java" index="1">
+<position info="not_deleted" x="2667" y="0"/>
 </item>
 <item historyLabel="ConverteNumeros.java" index="0">
-<position/>
+<position info="not_deleted" x="3471" y="0"/>
+</item>
+<item historyLabel="TestConverteNumeros.java" index="1">
+<position info="not_deleted" x="2667" y="0"/>
+</item>
+<item historyLabel="TestConverteNumeros.java" index="1">
+<position info="not_deleted" x="2727" y="0"/>
+</item>
+<item historyLabel="TestConverteNumeros.java" index="1">
+<position info="not_deleted" x="2661" y="0"/>
 </item>
 <item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="2471" y="0"/>
+<position info="not_deleted" x="3471" y="0"/>
 </item>
 <item historyLabel="TestConverteNumeros.java" index="1">
-<position/>
-</item>
-<item historyLabel="TestConverteNumeros.java" index="1">
-<position info="not_deleted" x="853" y="0"/>
+<position info="not_deleted" x="2661" y="0"/>
 </item>
 <item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="2607" y="0"/>
+<position info="not_deleted" x="3501" y="0"/>
 </item>
 <item historyLabel="TestConverteNumeros.java" index="1">
-<position info="not_deleted" x="853" y="0"/>
+<position info="not_deleted" x="2661" y="0"/>
 </item>
 <item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="1967" y="0"/>
+<position info="not_deleted" x="3501" y="0"/>
 </item>
 <item historyLabel="TestConverteNumeros.java" index="1">
-<position info="not_deleted" x="853" y="0"/>
-</item>
-<item historyLabel="TestConverteNumeros.java" index="1">
-<position info="not_deleted" x="713" y="0"/>
-</item>
-<item historyLabel="TestConverteNumeros.java" index="1">
-<position info="not_deleted" x="700" y="0"/>
-</item>
-<item historyLabel="TestConverteNumeros.java" index="1">
-<position info="not_deleted" x="725" y="0"/>
-</item>
-<item historyLabel="TestConverteNumeros.java" index="1">
-<position info="not_deleted" x="773" y="0"/>
-</item>
-<item historyLabel="TestConverteNumeros.java" index="1">
-<position info="not_deleted" x="806" y="0"/>
-</item>
-<item historyLabel="TestConverteNumeros.java" index="1">
-<position info="not_deleted" x="826" y="0"/>
-</item>
-<item historyLabel="TestConverteNumeros.java" index="1">
-<position info="not_deleted" x="850" y="0"/>
-</item>
-<item historyLabel="TestConverteNumeros.java" index="1">
-<position info="not_deleted" x="2021" y="0"/>
+<position info="not_deleted" x="2620" y="0"/>
 </item>
 <item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="1967" y="0"/>
-</item>
-<item historyLabel="ConverteNumeros.java" index="0">
-<position/>
-</item>
-<item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="1883" y="0"/>
+<position info="not_deleted" x="3501" y="0"/>
 </item>
 <item historyLabel="TestConverteNumeros.java" index="1">
-<position info="not_deleted" x="2021" y="0"/>
+<position info="not_deleted" x="2620" y="0"/>
+</item>
+<item historyLabel="ConverteNumeros.java" index="0">
+<position info="not_deleted" x="3501" y="0"/>
 </item>
 <item historyLabel="TestConverteNumeros.java" index="1">
-<position info="not_deleted" x="806" y="0"/>
+<position info="not_deleted" x="2620" y="0"/>
 </item>
 <item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="2512" y="0"/>
+<position info="not_deleted" x="3501" y="0"/>
 </item>
 <item historyLabel="TestConverteNumeros.java" index="1">
-<position info="not_deleted" x="806" y="0"/>
+<position info="not_deleted" x="2620" y="0"/>
+</item>
+<item historyLabel="ConverteNumeros.java" index="0">
+<position info="not_deleted" x="3501" y="0"/>
 </item>
 <item historyLabel="TestConverteNumeros.java" index="1">
-<position info="not_deleted" x="1884" y="0"/>
+<position info="not_deleted" x="2620" y="0"/>
+</item>
+<item historyLabel="ConverteNumeros.java" index="0">
+<position info="not_deleted" x="3569" y="0"/>
 </item>
 <item historyLabel="TestConverteNumeros.java" index="1">
-<position info="not_deleted" x="1887" y="44"/>
+<position info="not_deleted" x="2620" y="0"/>
+</item>
+<item historyLabel="ConverteNumeros.java" index="0">
+<position info="not_deleted" x="567" y="0"/>
 </item>
 <item historyLabel="TestConverteNumeros.java" index="1">
-<position info="not_deleted" x="1933" y="0"/>
+<position info="not_deleted" x="2620" y="0"/>
 </item>
 <item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="2512" y="0"/>
-</item>
-<item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="1724" y="23"/>
-</item>
-<item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="1724" y="0"/>
+<position info="not_deleted" x="567" y="0"/>
 </item>
 <item historyLabel="TestConverteNumeros.java" index="1">
-<position info="not_deleted" x="1985" y="0"/>
+<position info="not_deleted" x="2620" y="0"/>
 </item>
 <item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="1724" y="0"/>
+<position info="not_deleted" x="3832" y="0"/>
+</item>
+<item historyLabel="TestConverteNumeros.java" index="1">
+<position info="not_deleted" x="2620" y="0"/>
 </item>
 <item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="2816" y="0"/>
+<position info="not_deleted" x="3832" y="0"/>
+</item>
+<item historyLabel="TestConverteNumeros.java" index="1">
+<position info="not_deleted" x="2620" y="0"/>
 </item>
 <item historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="2738" y="0"/>
+<position info="not_deleted" x="3478" y="0"/>
 </item>
-<item active="true" historyLabel="ConverteNumeros.java" index="0">
-<position info="not_deleted" x="2741" y="0"/>
+<item historyLabel="TestConverteNumeros.java" index="1">
+<position info="not_deleted" x="2620" y="0"/>
+</item>
+<item historyLabel="ConverteNumeros.java" index="0">
+<position info="not_deleted" x="3236" y="0"/>
+</item>
+<item historyLabel="TestConverteNumeros.java" index="1">
+<position info="not_deleted" x="3094" y="0"/>
+</item>
+<item historyLabel="ConverteNumeros.java" index="0">
+<position info="not_deleted" x="3236" y="0"/>
+</item>
+<item historyLabel="ConverteNumeros.java" index="0">
+<position info="not_deleted" x="3236" y="0"/>
+</item>
+<item historyLabel="ConverteNumeros.java" index="0">
+<position info="not_deleted" x="3236" y="0"/>
+</item>
+<item historyLabel="ConverteNumeros.java" index="0">
+<position info="not_deleted" x="3234" y="0"/>
+</item>
+<item historyLabel="ConverteNumeros.java" index="0">
+<position info="not_deleted" x="3463" y="0"/>
+</item>
+<item historyLabel="TestConverteNumeros.java" index="1">
+<position info="not_deleted" x="3094" y="0"/>
+</item>
+<item historyLabel="ConverteNumeros.java" index="0">
+<position info="not_deleted" x="3312" y="0"/>
+</item>
+<item active="true" historyLabel="TestConverteNumeros.java" index="1">
+<position info="not_deleted" x="3094" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>

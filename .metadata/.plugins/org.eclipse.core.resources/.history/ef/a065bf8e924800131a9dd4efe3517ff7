@@ -55,7 +55,7 @@ public class TestConverteNumeros {
 		 /* numeros "quebrados" não tem "e" depois do mil*/
 		 Assert.assertEquals("mil duzentos e cinquenta", ConverteNumeros.devolveNumeroPorExtenso("1250"));
 		 
-		 Assert.assertEquals("dois mil e duzentos", ConverteNumeros.devolveNumeroPorExtenso("2200"));
+		 Assert.assertEquals("dois mil e duzentos", ConverteNumeros.devolveNumeroPorExtenso("1200"));
 		 /* numeros "quebrados" não tem "e" depois do mil*/
 		 Assert.assertEquals("cinco mil duzentos e cinquenta", ConverteNumeros.devolveNumeroPorExtenso("5250"));
 		 
