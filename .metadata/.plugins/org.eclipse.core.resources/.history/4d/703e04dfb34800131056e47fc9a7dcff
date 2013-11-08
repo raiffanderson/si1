@@ -78,24 +78,22 @@ public static String devolveNumeroPorExtenso(String num) {
 		linha = numeroDividido.length-1;
 		coluna = Integer.parseInt(numeroDividido[1]);
 		resposta = "mil e " + devolveNumeroPorExtenso(num.substring(2, 4));
-	}else if (seletor >= 1100 && seletor < 1000000){
+	}else if (seletor >= 1100 && seletor < 999999){
 		linha = numeroDividido.length-1;
 		coluna = Integer.parseInt(numeroDividido[1]);
-		if ( seletor > 99999 ){
-			resposta = devolveNumeroPorExtenso(num.substring(0,3))+" ";
-		}else if (seletor < 100000){
-			resposta = devolveNumeroPorExtenso(num.substring(0,2))+" ";
+		if (Integer.parseInt(num.substring(0,1)) > 1){
+			System.out.println(num.substring(0,2));
+			resposta = resposta + devolveNumeroPorExtenso(num.substring(0,1))+" ";
 		}
-		
 		if ("000000000".contains(num.substring(2,4))){
 			resposta = resposta +"mil e " + devolveNumeroPorExtenso(num.substring(1, 4));
 		}else{
 		resposta = resposta + "mil " + devolveNumeroPorExtenso(num.substring(1, 4));
 		}
 		
-	}else if(seletor > 9999){
+	}//else if(seletor > 9999){
 		
-	}
+	//}
 		
 	if (resposta.endsWith("e zero")){
 		resposta = resposta.substring(0, resposta.length() - 7);
