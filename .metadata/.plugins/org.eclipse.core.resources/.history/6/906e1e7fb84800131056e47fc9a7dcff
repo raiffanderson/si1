@@ -109,7 +109,7 @@ public static String devolveNumeroPorExtenso(String num) {
 	}
 		
 	if (resposta.contains(" um mil")){
-		resposta = resposta.substring(4, resposta.length());
+		resposta = resposta.substring(3, resposta.length());
 	}
 	if (resposta.endsWith("e zero")){
 		resposta = resposta.substring(0, resposta.length() - 7);

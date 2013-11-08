@@ -93,11 +93,11 @@ public static String devolveNumeroPorExtenso(String num) {
 		if ( seletor > 99999 ){
 			resposta = devolveNumeroPorExtenso(num.substring(0,3))+" ";
 		}else if (seletor < 100000){
-			if ( num.length() > 4){
-				resposta = devolveNumeroPorExtenso(num.substring(0,2))+" ";
-			}else if (num.length() < 5){
-				resposta = devolveNumeroPorExtenso(num.substring(0,1))+" ";}
+			resposta = devolveNumeroPorExtenso(num.substring(0,2))+" ";
+		}else if( seletor > 10000 && seletor < 100000){
+			resposta = devolveNumeroPorExtenso(num.substring(0,1))+" ";
 		}
+		
 		if ("000000000".contains(num.substring(2,4))){
 			resposta = resposta +"mil e " + devolveNumeroPorExtenso(num.substring(1, 4));
 		}else{
@@ -108,9 +108,6 @@ public static String devolveNumeroPorExtenso(String num) {
 		
 	}
 		
-	if (resposta.contains(" um mil")){
-		resposta = resposta.substring(4, resposta.length());
-	}
 	if (resposta.endsWith("e zero")){
 		resposta = resposta.substring(0, resposta.length() - 7);
 	}

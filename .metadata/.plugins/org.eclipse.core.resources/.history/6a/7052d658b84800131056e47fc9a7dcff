@@ -97,6 +97,7 @@ public static String devolveNumeroPorExtenso(String num) {
 				resposta = devolveNumeroPorExtenso(num.substring(0,2))+" ";
 			}else if (num.length() < 5){
 				resposta = devolveNumeroPorExtenso(num.substring(0,1))+" ";}
+			
 		}
 		if ("000000000".contains(num.substring(2,4))){
 			resposta = resposta +"mil e " + devolveNumeroPorExtenso(num.substring(1, 4));
@@ -108,9 +109,6 @@ public static String devolveNumeroPorExtenso(String num) {
 		
 	}
 		
-	if (resposta.contains(" um mil")){
-		resposta = resposta.substring(4, resposta.length());
-	}
 	if (resposta.endsWith("e zero")){
 		resposta = resposta.substring(0, resposta.length() - 7);
 	}
