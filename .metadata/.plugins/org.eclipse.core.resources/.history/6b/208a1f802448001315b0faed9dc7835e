@@ -1,0 +1,63 @@
+import java.util.Scanner;
+
+
+public class ConverteNumeros {
+
+	static String[][] numeros = {{"space","um", "dois", "tres","quatro","cinco","seis","sete","oito","nove"},
+							{"dez","onze","doze","treze","quatorze","quinze","dezesseis","dezessete","dezoito","dezenove"},
+							{"space","space","vinte","trinta","quarenta","cinquenta","sessenta","setenta","oitenta","noventa"},
+							{"space","cento","duzentos","trezentos","quatrocentos","quinhentos","seiscentos","setecentos","oitocentos","novecentos"}};
+	
+	//static String[][] 
+
+	public static void main(String[] args) throws Exception {
+		String input = "", desejaReiniciar = "y";
+		int inputNumber;
+		while(desejaReiniciar.equals("y") || desejaReiniciar.equals("Y")){
+			System.out.print("Qual o numero que você deseja converter ? ");
+			Scanner scanner = new Scanner(System.in);
+			input = scanner.nextLine();
+			try {
+				EntradaEhValida(input);
+			//	inputNumber = Integer.parseInt(input);
+				System.out.println("O numero escolhido foi: " + devolveNumeroPorExtenso(input));
+			}catch (Exception e){
+				System.out.println("Entrada Invalida.");
+				e.getMessage();
+			}finally{
+				
+				System.out.println("Deseja converter novamente ? (y/n) ");
+				desejaReiniciar = scanner.nextLine();
+				if (desejaReiniciar == "n" || desejaReiniciar == "N"){
+					break;
+				}
+			}
+			
+		}
+		System.out.println("Programa Finalizado.");
+	}
+	
+public static String devolveNumeroPorExtenso(String num) {
+	String[] numeroDividido = num.split("");
+	int linha,coluna;
+	/*for (int i = 0; i < numeroDividido.length; i++){
+		System.out.println(numeroDividido[i]);
+	}*/
+	linha = Integer.parseInt(numeroDividido[2]);
+	coluna = Integer.parseInt(numeroDividido[1]);
+	//System.out.println(linha + coluna);
+	return numeros[Integer.parseInt(numeroDividido[1])][Integer.parseInt(numeroDividido[0])];
+	
+}
+
+
+
+	public static boolean EntradaEhValida(String testeDeEntrada) throws Exception{
+		if (testeDeEntrada.equals("")|| testeDeEntrada.equals(null)){
+			throw new Exception ("Entrada Invalida!");
+		}
+		return true;
+	}
+	
+
+}
