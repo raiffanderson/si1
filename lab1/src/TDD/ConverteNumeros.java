@@ -45,8 +45,15 @@ public static String devolveNumeroPorExtenso(String num) {
 	String[] numeroDividido = num.split("");
 	int linha = 0;
 	int coluna = 0;
-	if (seletor < 10){
-		coluna = Integer.parseInt(numeroDividido[1]);
+	if( seletor == 0){
+		resposta = "zero";
+	}else if (seletor == 100){
+		resposta = "cem";
+	}else if (seletor < 10){
+		if (num.length() > 1){
+			coluna = Integer.parseInt(numeroDividido[2]);
+		}
+		else{coluna = Integer.parseInt(numeroDividido[1]);}
 		resposta = numeros[linha][coluna];
 	}else if(9 < seletor && seletor <= 19){
 		linha = numeroDividido.length - 2;
@@ -59,6 +66,11 @@ public static String devolveNumeroPorExtenso(String num) {
 		if (!numeroDividido[2].equals("0")){
 			resposta = resposta +" e "+ devolveNumeroPorExtenso(numeroDividido[2]);
 		}
+	}else if (seletor > 100 && seletor < 1000){
+		linha = numeroDividido.length-1;
+		coluna = Integer.parseInt(numeroDividido[1]);	
+		resposta = numeros[linha][coluna] + " e " + devolveNumeroPorExtenso(num.substring(1, 3));
+		
 	}
 	//System.out.println("seletor " + seletor + " linha:" +linha+ " coluna:" + coluna);
 //	for (int i = 0; i < numeroDividido.length; i++ ){

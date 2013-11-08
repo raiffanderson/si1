@@ -10,10 +10,11 @@ import org.junit.Test;
 public class TestConverteNumeros {
 	
 	
-	String[]listaUmADez= {"space","um", "dois", "tres","quatro","cinco","seis","sete","oito","nove","dez","onze","doze","treze","quatorze","quinze","dezesseis","dezessete","dezoito","dezenove"};
+	String[]listaUmADezenove= {"space","um", "dois", "tres","quatro","cinco","seis","sete","oito","nove","dez","onze","doze","treze","quatorze","quinze","dezesseis","dezessete","dezoito","dezenove"};
 	String[]lista21A99Pulando9PorExtenso= {"vinte e um","trinta", "trinta e nove", "quarenta e oito","cinquenta e sete","sessenta e seis","setenta e cinco","oitenta e quatro","noventa e tres"};
 	String[]lista21A99Pulando9 = {"21" , "30", "39", "48", "57", "66","75","84","93"};
-	
+	String[]lista101A999Pulando253 ={"101","354","607","860"};
+	String[]lista101A999Pulando253PorExtenso = {"cento e um","trezentos e cinquenta e quatro","seiscentos e sete","oitocentos e sessenta"};
 	@Before
 	public void setUp() {}
 		String testeDeEntrada;
@@ -23,15 +24,24 @@ public class TestConverteNumeros {
 	public void TestaDevolveNumeroPorExtenso(){
 		/* 1º caso */
 		for (int num = 1; num < 20; num++){
-			 Assert.assertEquals(ConverteNumeros.devolveNumeroPorExtenso(Integer.toString(num)), listaUmADez[num]);
-			 /* varre os números de 0 a 10 para conferir se todos estão cobertos*/
+			 Assert.assertEquals(ConverteNumeros.devolveNumeroPorExtenso(Integer.toString(num)), listaUmADezenove[num]);
+			 /* varre alguns de 0 a 19 para conferir se todos estão cobertos*/
 		} 
 		
 		for (int num = 0; num < lista21A99Pulando9.length; num++  ){
 			 Assert.assertEquals( lista21A99Pulando9PorExtenso[num],ConverteNumeros.devolveNumeroPorExtenso(lista21A99Pulando9[num]));
-			 /* varre os números de 0 a 10 para conferir se todos estão cobertos*/
+			 /* varre alguns números de 21 a 99 para conferir se todos estão cobertos*/
 		} 
 		
+		for (int num = 0; num < lista101A999Pulando253.length; num++  ){
+			 Assert.assertEquals( lista101A999Pulando253PorExtenso[num],ConverteNumeros.devolveNumeroPorExtenso(lista101A999Pulando253[num]));
+			 /* varre alguns números de 101 a 999 para conferir se todos estão cobertos*/
+		}
+		
+		/*garante os casos excepcionais, o zero e o cem*/
+		 Assert.assertEquals("zero", ConverteNumeros.devolveNumeroPorExtenso("0"));
+		 Assert.assertEquals("cem", ConverteNumeros.devolveNumeroPorExtenso("100"));
+		 
 	
 		
 	}
