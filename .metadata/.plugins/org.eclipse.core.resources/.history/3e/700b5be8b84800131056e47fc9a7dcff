@@ -108,8 +108,8 @@ public static String devolveNumeroPorExtenso(String num) {
 		
 	}
 		
-	if (resposta.contains("um mil")){
-		resposta = resposta.substring(3);
+	if (resposta.contains(" um mil")){
+		resposta = resposta.substring(2);
 	}
 	if (resposta.endsWith("e zero")){
 		resposta = resposta.substring(0, resposta.length() - 7);

@@ -16,7 +16,7 @@ public class TestConverteNumeros {
 	String[]lista101A999Pulando253 ={"101","354","607","860"};
 	String[]lista101A999Pulando253PorExtenso = {"cento e um","trezentos e cinquenta e quatro","seiscentos e sete","oitocentos e sessenta"};
 	String[]lista1000A1200Pulando57 = {"1000","1057","1114","1171"};
-	String[]lista1000A1200Pulando57PorExtenso = {"mil","mil e cinquenta e sete","mil cento e quatorze","mil cento e setenta e um"};
+	String[]lista1000A1200Pulando57PorExtenso = {"mil","mil e cinquenta e sete","um mil cento e quatorze","um mil cento e setenta e um"};
 	
 	@Before
 	public void setUp() {}
@@ -51,9 +51,9 @@ public class TestConverteNumeros {
 		 Assert.assertEquals("cem", ConverteNumeros.devolveNumeroPorExtenso("100"));
 		 
 		 /* numeros fechados na centena tem um "e" depois do mil */
-		 Assert.assertEquals("mil e duzentos", ConverteNumeros.devolveNumeroPorExtenso("1200"));
+		 Assert.assertEquals("um mil e duzentos", ConverteNumeros.devolveNumeroPorExtenso("1200"));
 		 /* numeros "quebrados" não tem "e" depois do mil*/
-		 Assert.assertEquals("mil duzentos e cinquenta", ConverteNumeros.devolveNumeroPorExtenso("1250"));
+		 Assert.assertEquals("um mil duzentos e cinquenta", ConverteNumeros.devolveNumeroPorExtenso("1250"));
 		 
 		 Assert.assertEquals("dois mil e duzentos", ConverteNumeros.devolveNumeroPorExtenso("2200"));
 		 /* numeros "quebrados" não tem "e" depois do mil*/
