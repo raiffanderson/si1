@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+
+public class ConverteNumeros {
+
+	static String[] numeros = {"zero","um", "dois", "tres","quatro","cinco","seis","sete","oito","nove","dez",
+							"onze","doze","treze","quatorze","quinze","dezesseis","dezessete","dezoito","dezenove",
+							"vinte","trinta","quarenta","cinquenta","sessenta","setenta","oitenta","noventa","cento",
+							"duzentos","trezentos","quatrocentos","quinhentos","seiscentos","setecentos","oitocentos","novecentos"};
+
+	public static void main(String[] args) {
+		String input = "";
+		int inputNumber;
+		
+		System.out.println("Qual o numero que você deseja converter ? ");
+		Scanner scanner = new Scanner(System.in);
+		input = scanner.nextLine();
+		inputNumber = Integer.parseInt(input);
+		System.out.println("O numero escolhido foi:" + devolveNumeroPorExtenso(inputNumber));
+	}
+	
+
+	
+	public static String devolveNumeroPorExtenso(int num) {
+		/*1ºcaso - numeros de 0 a 10*/
+		return numeros[num];
+		
+	}
+
+
+
+	public static boolean EntradaEhValida(String testeDeEntrada) throws Exception{
+		if (testeDeEntrada.equals("")|| testeDeEntrada.equals(null)){
+			throw new Exception ("Entrada Invalida!");
+		}
+		return true;
+	}
+	
+
+}
