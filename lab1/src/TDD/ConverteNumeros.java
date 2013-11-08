@@ -11,7 +11,6 @@ public class ConverteNumeros {
 							{"space","space","vinte","trinta","quarenta","cinquenta","sessenta","setenta","oitenta","noventa"},
 							{"space","cento","duzentos","trezentos","quatrocentos","quinhentos","seiscentos","setecentos","oitocentos","novecentos"}};
 	
-	//static String[][] 
 
 	public static void main(String[] args) throws Exception {
 		String input = "", desejaReiniciar = "y";
@@ -47,6 +46,10 @@ public static String devolveNumeroPorExtenso(String num) {
 	int coluna = 0;
 	if( seletor == 0){
 		resposta = "zero";
+	}else if (seletor == 1000){
+		resposta = "mil";
+	}else if (seletor == 1100){
+		resposta = "mil e cem";
 	}else if (seletor == 100){
 		resposta = "cem";
 	}else if (seletor < 10){
@@ -71,13 +74,24 @@ public static String devolveNumeroPorExtenso(String num) {
 		coluna = Integer.parseInt(numeroDividido[1]);	
 		resposta = numeros[linha][coluna] + " e " + devolveNumeroPorExtenso(num.substring(1, 3));
 		
+	}else if  ( seletor > 1000 && seletor < 1100){
+		linha = numeroDividido.length-1;
+		coluna = Integer.parseInt(numeroDividido[1]);
+		resposta = "mil e " + devolveNumeroPorExtenso(num.substring(2, 4));
+	}else if (seletor >= 1100 && seletor < 9999){
+		linha = numeroDividido.length-1;
+		coluna = Integer.parseInt(numeroDividido[1]);
+		if ("000000000".contains(num.substring(2,4))){
+			resposta = "mil e " + devolveNumeroPorExtenso(num.substring(1, 4));
+		}else{
+		resposta = "mil " + devolveNumeroPorExtenso(num.substring(1, 4));
+		}
+		
 	}
-	//System.out.println("seletor " + seletor + " linha:" +linha+ " coluna:" + coluna);
-//	for (int i = 0; i < numeroDividido.length; i++ ){
-//		 System.out.println("elemento: "+ numeroDividido[i]);
-//		 /* varre os números de 0 a 10 para conferir se todos estão cobertos*/
-//	} 
-//	System.out.println("tamanho: " + numeroDividido.length);
+	
+	if (resposta.endsWith("e zero")){
+		resposta = resposta.substring(0, resposta.length() - 7);
+	}
 	return resposta;
 }
 
